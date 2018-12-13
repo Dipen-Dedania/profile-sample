@@ -15,29 +15,43 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheets/css/main.css">
 
-<body>
-    <!-- <div>
-        <div><img src="images/back.jpg" alt="Logo" style="width: 100%;">
-            <div class="container">
-				<h1>Pascal  van Gemert</h1>
-				<p class="lead">Interactive resume</p>
-			</div>
-        </div>
-       
-    </div> -->
-  
-    <div id="top" class="jumbotron" data-src="/view/images/coffee_animation.gif" data-position="center center" style="height: 608px;">
+<body data-spy="scroll" data-target="#navbar-example" style="" cz-shortcut-listen="true">
+
+    <div id="top" class="jumbotron" data-position="center center" style="height: 608px;">
         <div class="container">
             <h1>Pascal  van Gemert</h1>
             <p class="lead">Interactive resume</p>
         </div>
         
         <div class="overlay"></div>
-        
-        <!-- <a href="http://www.pascalvangemert.nl/#profile" class="scroll-down">	
-            <span class="glyphicon glyphicon-chevron-down"></span>
-        </a> -->
+
+        <a href="#" class="scroll-down">	
+            <span><i class="fas fa-angle-down"></i></span>
+        </a> 
     </div>
+
+    <nav class="navbar navbar-default" id="navbar-example" role="navigation">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+     
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#profile">Profile</a></li>
+                <li class=""><a href="#experiences">Experiences</a></li>
+                <li class=""><a href="#abilities">Abilities</a></li>
+                                    <li class=""><a href="#projects">Projects</a></li>
+                <li class=""><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
     
         
