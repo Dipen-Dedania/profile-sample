@@ -44,77 +44,20 @@
 	  background-color: #222222;
 	  text-align: center;
 	  z-index: 6;
-	  .down-arrow {
+	  .down-icon {
 		color: #FFFFFF;
 		font-size: 30px;
 		padding-right: 2px;
-		padding-top: 40px;
+		padding-top: 20px;
 		animation-name: wiggle;
 		animation-duration: 1.2s;
 		animation-timing-function: linear;
 		animation-iteration-count: infinite;
 		animation-direction: normal;
 	  }
-	  &:hover .down-arrow {
+	  &:hover .down-icon {
 		padding-top: 25px;
 	  }
 	}
   }
-  .navbar {
-	border: 0px;
-	background-color: #222222;
-	position: absolute;
-	top: 100%;
-	right: 5%;
-	width: 110px;
-	z-index: 999;
-	.navbar-collapse {
-	  padding: 0px;
-	  max-height: none;
-	}
-	.navbar-nav {
-	  float: none;
-	}
-  }
-  
-  .navbar-nav {
-	margin: 0px;
-  }
-  
-  .navbar .nav > li {
-	display: block;
-	float: none;
-	height: 80px;
-	a {
-	  display: block;
-	  height: 80px;
-	  text-align: center;
-	  padding-top: 30px;
-	  font-weight: 600;
-	  color: #FFFFFF;
-	  &:hover, &:focus {
-		color: #999999;
-	  }
-	}
-  }
-  
-  .navbar-default {
-	.navbar-nav > .active > a {
-	  background: #22A39F;
-	  color: #FFFFFF;
-	  &:hover, &:focus {
-		background: #22A39F;
-		color: #FFFFFF;
-	  }
-	}
-	.navbar-toggle {
-	  &:hover .icon-bar, &:focus .icon-bar {
-		background: #222222;
-	  }
-	}
-  }
-  
-  .fixed .navbar {
-	position: fixed;
-	top: 60px;
-  }
+
