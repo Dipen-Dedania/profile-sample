@@ -59,12 +59,31 @@
     padding-top: 28px; }
   100% {
     padding-top: 20px; } }
+h1, h4 {
+  font-weight: 700;
+  margin-bottom: 10px; }
+
+h2, h3 {
+  font-weight: 300;
+  color: #22A39F; }
+
+h2 {
+  font-size: 54px;
+  text-align: center; }
+
+h3 {
+  font-size: 28px; }
+
+hr {
+  width: 90%; }
+
 .bg-white {
   background: #FFFFFF;
   position: relative;
   top: 50px;
   z-index: 4;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
   .bg-white .profile h2 {
     font-size: 54px;
     text-align: center;
@@ -96,5 +115,28 @@
       float: left; }
     .bg-white .profile .sub-content .right-content .f-sub-content {
       color: black; }
+
+.experiences {
+  background-color: #efe9d2;
+  margin-top: 60px;
+  text-align: center;
+  height: auto; }
+  .experiences .e-title {
+    padding-top: 50px;
+    color: #22a39f;
+    font-weight: 100; }
+  .experiences .e-p-title {
+    color: #727878;
+    font-size: 20px;
+    font-weight: 100; }
+  .experiences .education {
+    text-align: left; }
+  .experiences .a-title {
+    font-size: 20px; }
+  .experiences .experience-details {
+    display: block;
+    color: #22A39F; }
+  .experiences .seperator {
+    color: #BCBCBC; }
 
 /*# sourceMappingURL=main.css.map */
