@@ -131,6 +131,8 @@ hr {
     font-weight: 100; }
   .experiences .education {
     text-align: left; }
+  .experiences .row {
+    padding-bottom: 20px; }
   .experiences .a-title {
     font-size: 20px; }
   .experiences .experience-details {
