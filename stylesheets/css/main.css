@@ -59,5 +59,42 @@
     padding-top: 28px; }
   100% {
     padding-top: 20px; } }
+.bg-white {
+  background: #FFFFFF;
+  position: relative;
+  top: 50px;
+  z-index: 4;
+  text-align: center; }
+  .bg-white .profile h2 {
+    font-size: 54px;
+    text-align: center;
+    color: #59bab7;
+    font-weight: 200px; }
+  .bg-white .profile p {
+    text-align: center;
+    color: #727878;
+    font-size: 20px;
+    font-weight: 100; }
+  .bg-white .profile .sub-content {
+    margin-bottom: 20px;
+    margin-top: 40px; }
+    .bg-white .profile .sub-content h3 {
+      font-weight: 300;
+      color: #22A39F;
+      text-align: left; }
+    .bg-white .profile .sub-content img {
+      width: 100%;
+      max-width: 246px;
+      height: auto; }
+    .bg-white .profile .sub-content P {
+      text-align: left;
+      font-size: 18px;
+      color: black; }
+    .bg-white .profile .sub-content .right-content p {
+      color: black; }
+    .bg-white .profile .sub-content .right-content .t-btn {
+      float: left; }
+    .bg-white .profile .sub-content .right-content .f-sub-content {
+      color: black; }
 
 /*# sourceMappingURL=main.css.map */
